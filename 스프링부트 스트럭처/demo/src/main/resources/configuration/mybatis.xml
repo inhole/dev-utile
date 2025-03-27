@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- MyBatis 설정 -->
+	<settings>
+		<!-- 언더스코어를 카멜케이스로 매핑 -->
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+		<!-- 기본 페치 크기 설정 -->
+		<setting name="defaultFetchSize" value="100"/>
+		<!-- 기본 스테이트먼트 타임아웃 설정 -->
+		<setting name="defaultStatementTimeout" value="30"/>
+	</settings>
+	<!-- 타입 별칭 설정 -->
+	<typeAliases>
+		<package name="demo.domain.dto"/>
+		<package name="demo.domain.entity"/>
+	</typeAliases>
+	<!-- 타입 핸들러 설정 -->
+	<typeHandlers>
+<!--		<typeHandler handler="rsea.libs.typehandler.RSJSONHandler" javaType="rsea.libs.RSJSON" />-->
+<!--		<typeHandler handler="rsea.libs.typehandler.RSJSONListHandler" javaType="rsea.libs.RSJSONList" />-->
+<!--		<typeHandler handler="rsea.libs.typehandler.ZonedDateTimeHandler" javaType="java.time.ZonedDateTime" />-->
+<!--		<typeHandler handler="rsea.libs.typehandler.LocalDateTimeHandler" javaType="java.time.LocalDateTime" />-->
+<!--		<typeHandler handler="rsea.libs.typehandler.StringListHandler" javaType="rsea.libs.StringList" />-->
+<!--		<typeHandler handler="rsea.libs.typehandler.NumberListHandler" javaType="rsea.libs.NumberList" />-->
+<!--		<typeHandler handler="rsea.libs.typehandler.ExceptionHandler" javaType="java.lang.Exception" />-->
+<!--		<typeHandler handler="rsea.libs.typehandler.PageDataHandler" javaType="rsea.libs.PageData" />-->
+
+<!--		<typeHandler handler="soopticker.handler.ShipCondTypehandler" javaType="soopticker.handler.ShipCond" />-->
+<!--		<typeHandler handler="soopticker.handler.OptionInputListTypehandler" javaType="soopticker.handler.OptionInput$OptionInputList" />-->
+<!--		<typeHandler handler="soopticker.handler.SelectOptionListTypehandler" javaType="soopticker.handler.SelectOption$SelectOptionList" />-->
+<!--		<typeHandler handler="soopticker.handler.ProductVpdItemListTypehandler" javaType="soopticker.handler.ProductVpdItem$ProductVpdItemList" />-->
+<!--		<typeHandler handler="soopticker.handler.ProductAmountOptionTypehandler" javaType="soopticker.handler.ProductAmountOption" />-->
+<!--		<typeHandler handler="soopticker.handler.ProductSizeAmountOptionTypehandler" javaType="soopticker.handler.ProductAmountOption$ProductSizeAmountOption" />-->
+<!--		<typeHandler handler="soopticker.handler.ProductCustomSizeOptionTypehandler" javaType="soopticker.handler.ProductCustomSizeOption" />-->
+<!--		<typeHandler handler="soopticker.handler.ProductPostProcOptionListTypehandler" javaType="soopticker.handler.ProductPostProcOption$ProductPostProcOptionList" />-->
+<!--		<typeHandler handler="soopticker.handler.BillTypehandler" javaType="soopticker.handler.Bill" />-->
+	</typeHandlers>
+</configuration>
+
+
+
