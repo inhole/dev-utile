@@ -1,6 +1,5 @@
-package com.demo.annotation;
+package demo.anotation.safeContent;
 
-import com.cescomicropage.constant.BadWords;
 import org.jsoup.Jsoup;
 import org.jsoup.safety.Safelist;
 

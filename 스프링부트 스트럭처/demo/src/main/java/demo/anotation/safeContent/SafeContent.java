@@ -1,4 +1,4 @@
-package com.demo.annotation;
+package demo.anotation.safeContent;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
